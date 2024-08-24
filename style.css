@@ -2,7 +2,7 @@ body {
     font-size: 1.2rem;
     font-family: 'Bebas neue', sans-serif;
     /* min-height: 5000px; */
-    background-color: #FFE002;
+    background-color: #ff6b02;
     /* background-image: url(img/t.jpg);
     object-fit: fill; */
 }
@@ -10,7 +10,7 @@ body {
 .jumbotron {
     padding-top: 8rem;
     background-color: #1C1C1C;
-    color: #FFE002;
+    color: #ff6b02;
 }
 
 .profile {
@@ -19,7 +19,7 @@ body {
 
 .gallery {
     background-color: #1C1C1C;
-    color: #FFE002;
+    color: #ff6b02;
 }
 
 .id {
@@ -55,7 +55,7 @@ section {
 footer,
 footer a {
     background-color: #1C1C1C;
-    color: #FFE002;
+    color: #ff6b02;
     text-decoration: none;
 }
 
