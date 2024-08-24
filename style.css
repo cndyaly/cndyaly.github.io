@@ -1,0 +1,64 @@
+body {
+    font-size: 1.2rem;
+    font-family: 'Bebas neue', sans-serif;
+    /* min-height: 5000px; */
+    background-color: #FFE002;
+    /* background-image: url(img/t.jpg);
+    object-fit: fill; */
+}
+
+.jumbotron {
+    padding-top: 8rem;
+    background-color: #1C1C1C;
+    color: #FFE002;
+}
+
+.profile {
+    border-radius: 0px 50px;
+}
+
+.gallery {
+    background-color: #1C1C1C;
+    color: #FFE002;
+}
+
+.id {
+    color: #1C1C1C;
+}
+
+section {
+    padding-top: 5rem;
+}
+
+.gallery img {
+    border-radius: 50px;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    box-shadow: 0 0 0 #0000;
+    /* filter:sepia(80%) hue-rotate(180deg); */
+    opacity: 0.67;
+    transition: all 0.15s cubic-bezier(0.3, 0.1, 0.3, 0.85);
+}
+
+.gallery img:hover {
+    z-index: 1;
+    transform: scale(1.2);
+    border-radius: 5px;
+    box-shadow: 1em 1em 1em #0004;
+    /* filter: sepia(0%) hue-rotate(0deg); */
+    opacity: 1;
+    transition: all 0.3s cubic-bezier(0.3, 0.1, 0.3, 0.85);
+}
+
+footer,
+footer a {
+    background-color: #1C1C1C;
+    color: #FFE002;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: white;
+}
